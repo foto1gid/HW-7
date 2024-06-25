@@ -1,0 +1,14 @@
+/* Значення атрибутів href яких починається з https */
+a[href="https://www.youtube.com/"] {
+    color: red;
+}
+
+/* Значення атрибутів href яких починається з https */
+a[href="https://validator.w3.org/"] {
+    color: red;
+}
+
+/* Тільки для <p>, який іде після <ul> */
+ul + p {
+   font-size: 24px;
+}
